@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>David Gnamuš</title>
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/pingu.jpeg" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="https://medium.com/@gnamus.david" target="_blank" class="nav__link">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>David Gnamuš</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"> Aspiring DevOps Engineer</p>
+            <img src="img/david.jpg" alt="a picture of David Gnamuš smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I offer</h2>
+            <div class="services">                  
+               
+                <!-- <div class="service">
+                    <h3>Front-End Development</h3>
+                    <p>In addition to my DevOps expertise, I utilized front-end development skills to build and deploy a functional web application as part of my projects. I worked with React.js to create an intuitive user interface and integrated it with a Node.js back end, ensuring seamless functionality. This hands-on experience with front-end technologies allowed me to better understand application workflows and tailor DevOps pipelines to meet the unique needs of modern web applications, demonstrating my versatility and ability to collaborate across development and operations teams.</p>
+                </div> / service -->
+
+                <div class="service">
+                    <h3>DevOps</h3>
+                    <p>I built and automated a CI/CD pipeline for a web application using GitHub Actions. The pipeline handles code integration steps including dependency installation, linting, testing, and building the application into production-ready artifacts.
+I implemented artifact management within the pipeline and automated the deployment process to a virtual machine environment, ensuring that every change pushed to the repository can be reliably built and deployed.
+As part of the project, I worked with Docker to containerize the application and began structuring the deployment in a more reproducible way. I also configured a reverse proxy using Nginx and set up HTTPS to simulate a production-like environment.
+This project helped me understand the full lifecycle of an application—from code commit to deployment—as well as the fundamentals of automation, environment consistency, and reliable delivery.</p>
+                </div> <!-- / service -->
+                
+                <!-- <div class="service">
+                    <h3>Technical Support</h3>
+                    <p>With a strong background as an application support analyst, I specialize in diagnosing and resolving complex technical issues across diverse software environments. I have hands-on experience supporting enterprise applications, ensuring system reliability, and providing exceptional service to end users. My role has involved analyzing root causes, implementing solutions under pressure, and collaborating with cross-functional teams to optimize performance and uptime. This experience has honed my ability to troubleshoot effectively, adapt to new technologies, and maintain seamless system operations.</p>
+                </div> / service -->
+            
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Projects</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">CS student from Slovenia working in Gdansk</p>
+           
+           <div class="about-me__body">
+               <p>I'm a application support analyst with over 4 years of experience, consistently enchaning team efficiency and customer satisfaction by resolving complex technical issues. My proactive approach to learning DevOps tools, cloud services, and automation allows me to continuously improve the value I bring to my role and the organizations I serve. </p>
+               <p>My background is in hospitality industry, specifically working in hotels. I am studying towards bachelors degree at PJAIT in Warsaw.</p>
+           </div>
+           
+           <img src="img/david.jpg" alt="A picture of David" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+
+        <!-- <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My projects</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/oldagram-square.png" alt="" class="portfolio__img">
+                </a>
+                
+               
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/tenzies.jpg" alt="" class="portfolio__img">
+                </a>
+    
+                
+                
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/password-generator.jpg" alt="" class="portfolio__img">
+                </a>
+                
+
+            </div>
+        </section> -->
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:david.gnamus@protonmail.com" class="footer__link">david.gnamus@protonmail.com</a>
+            <ul class="social-list">                
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/davidgnamus/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://github.com/dgnamus">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://medium.com/@gnamus.david">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
