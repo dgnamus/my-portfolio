@@ -518,10 +518,12 @@ header {
     max-width: 1000px;
     margin: 2em auto;
     text-align: center;
+    background: var(--color-dark); /* matches section */
 }
 
 .portfolio__item--video iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
     border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
